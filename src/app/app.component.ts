@@ -4,7 +4,7 @@ import { StatusBar } from 'ionic-native';
 
 import { HomePage } from '../pages/home/home';
 
-import {ImageLoaderConfig, ImageLoader} from 'ionic-image-loader';
+import { ImageLoaderConfig } from 'ionic-image-loader';
 
 @Component({
   template: `<ion-nav [root]="rootPage"></ion-nav>`
@@ -14,8 +14,7 @@ export class MyApp {
 
   constructor(
     platform: Platform,
-    imageLoaderConfig: ImageLoaderConfig,
-    imageLoader: ImageLoader
+    imageLoaderConfig: ImageLoaderConfig
   ) {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
@@ -24,5 +23,7 @@ export class MyApp {
     });
 
     imageLoaderConfig.enableDebugMode();
+    imageLoaderConfig.useImageTag(true);
+    imageLoaderConfig.setFallbackUrl('assets/fallback.png');
   }
 }
