@@ -24,7 +24,7 @@
     "@angular/platform-server": "^2.0.0",
     "@ionic/storage": "^1.0.3",
     "ionic-angular": "^2.0.0-rc.0",
-    "ionic-image-loader": "^0.3.0",
+    "ionic-image-loader": "^0.4.1",
     "ionic-native": "^2.2.2",
     "ionicons": "^3.0.0",
     "rxjs": "^5.0.0-beta.12",
@@ -37,16 +37,15 @@
   },
   "description": "ionic-image-loader-example: An Ionic project",
   "cordovaPlugins": [
+    "cordova-plugin-file",
+    "cordova-plugin-compat",
+    "cordova-plugin-file-transfer",
     "cordova-plugin-device",
     "cordova-plugin-console",
     "cordova-plugin-whitelist",
     "cordova-plugin-splashscreen",
     "cordova-plugin-statusbar",
-    "ionic-plugin-keyboard",
-    "cordova-plugin-file",
-    "cordova-plugin-http",
-    "cordova-plugin-compat",
-    "cordova-plugin-file-transfer"
+    "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": []
 }
