@@ -22,8 +22,11 @@ export class MyApp {
       StatusBar.styleDefault();
     });
 
+
+    // enable debug mode to get console logs and stuff
     imageLoaderConfig.enableDebugMode();
-    imageLoaderConfig.useImageTag(true);
+
+    // set a fallback url to use by default in case an image is not found
     imageLoaderConfig.setFallbackUrl('assets/fallback.png');
   }
 }

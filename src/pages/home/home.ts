@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 
-import { NavController } from 'ionic-angular';
+import { ModalController } from 'ionic-angular';
+import {Cards} from "../cards/cards";
+import {Avatars} from "../avatars/avatars";
+import {Slider} from "../slider/slider";
 
 @Component({
   selector: 'page-home',
@@ -8,9 +11,16 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  cards = Cards;
+  avatars = Avatars;
+  slider = Slider;
+
   constructor(
-    public navCtrl: NavController
-  ) {
+    private modalCtrl: ModalController
+  ) {}
+
+  openModal(component) {
+    this.modalCtrl.create(component).present();
   }
 
 }

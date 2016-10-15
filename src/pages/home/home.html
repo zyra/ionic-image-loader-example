@@ -1,22 +1,23 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
-      Ionic Blank
+      Ionic Image Loader
     </ion-title>
   </ion-navbar>
 </ion-header>
-
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+<ion-content>
+  <p padding>
+    Welcome to this demo application. Pick one of the options below to see different use cases of ionic-image-loader:
   </p>
-  <!-- Image with no src (can be undefined too) -->
-  <img-loader src=""></img-loader>
-
-  <!-- Small size image -->
-  <img-loader src="http://ionic.io/img/home/home-android-device.png"></img-loader>
-
-  <!-- Large image (few MBs), show as background image instead of img tag (our config is set to use img tag by default) -->
-  <img-loader src="https://static.pexels.com/photos/2855/landscape-mountains-nature-lake.jpg" [useImg]="false"></img-loader>
+  <ion-list>
+    <button ion-item (click)="openModal(cards)">
+      Cards
+    </button>
+    <button ion-item (click)="openModal(avatars)">
+      Avatars
+    </button>
+    <button ion-item (click)="openModal(slider)">
+      Sliders
+    </button>
+  </ion-list>
 </ion-content>

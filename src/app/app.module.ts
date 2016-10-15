@@ -3,21 +3,25 @@ import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { IonicImageLoader } from 'ionic-image-loader';
+import {Avatars} from "../pages/avatars/avatars";
+import {Cards} from "../pages/cards/cards";
+import {Slider} from "../pages/slider/slider";
+
+const pages = [
+  MyApp,
+  HomePage,
+  Avatars,
+  Cards,
+  Slider
+];
 
 @NgModule({
-  declarations: [
-    MyApp,
-    HomePage
-  ],
+  declarations: pages,
   imports: [
     IonicModule.forRoot(MyApp),
     IonicImageLoader
   ],
   bootstrap: [IonicApp],
-  entryComponents: [
-    MyApp,
-    HomePage
-  ],
-  providers: []
+  entryComponents: pages
 })
 export class AppModule {}
