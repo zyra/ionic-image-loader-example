@@ -6,13 +6,15 @@ import { IonicImageLoader } from 'ionic-image-loader';
 import {Avatars} from "../pages/avatars/avatars";
 import {Cards} from "../pages/cards/cards";
 import {Slider} from "../pages/slider/slider";
+import {ConcurrencyPage} from "../pages/concurrency/concurrency";
 
 const pages = [
   MyApp,
   HomePage,
   Avatars,
   Cards,
-  Slider
+  Slider,
+  ConcurrencyPage
 ];
 
 @NgModule({

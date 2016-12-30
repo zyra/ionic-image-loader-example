@@ -1,0 +1,31 @@
+<!--
+  Generated template for the Concurrency page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Concurrency</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="viewCtrl.dismiss()">Close</button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-card *ngFor="let image of images">
+    <img-loader [src]="image" [useImg]="true"></img-loader>
+    <ion-card-content>
+      <ion-card-title>
+        An awesome card
+      </ion-card-title>
+      <p>
+        Just another card
+      </p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

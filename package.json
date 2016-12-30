@@ -13,27 +13,26 @@
     "run:before": "build"
   },
   "dependencies": {
-    "@angular/common": "^2.0.0",
-    "@angular/compiler": "^2.0.0",
-    "@angular/compiler-cli": "^0.6.2",
-    "@angular/core": "^2.0.0",
-    "@angular/forms": "^2.0.0",
-    "@angular/http": "^2.0.0",
-    "@angular/platform-browser": "^2.0.0",
-    "@angular/platform-browser-dynamic": "^2.0.0",
-    "@angular/platform-server": "^2.0.0",
-    "@ionic/storage": "^1.0.3",
-    "ionic-angular": "^2.0.0-rc.0",
-    "ionic-image-loader": "^0.4.1",
-    "ionic-native": "^2.2.2",
-    "ionicons": "^3.0.0",
-    "rxjs": "^5.0.0-beta.12",
-    "zone.js": "^0.6.21"
+    "@angular/common": "2.2.1",
+    "@angular/compiler": "2.2.1",
+    "@angular/compiler-cli": "2.2.1",
+    "@angular/core": "2.2.1",
+    "@angular/forms": "2.2.1",
+    "@angular/http": "2.2.1",
+    "@angular/platform-browser": "2.2.1",
+    "@angular/platform-browser-dynamic": "2.2.1",
+    "@angular/platform-server": "2.2.1",
+    "@ionic/storage": "1.1.7",
+    "ionic-angular": "2.0.0-rc.4",
+    "ionic-image-loader": "^1.2.0",
+    "ionic-native": "2.2.11",
+    "ionicons": "3.0.0",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "0.6.26"
   },
   "devDependencies": {
-    "@angular/platform-browser": "^2.0.2",
-    "@ionic/app-scripts": "latest",
-    "typescript": "^2.0.3"
+    "@ionic/app-scripts": "0.0.48-201612291559",
+    "typescript": "2.0.9"
   },
   "description": "ionic-image-loader-example: An Ionic project",
   "cordovaPlugins": [
