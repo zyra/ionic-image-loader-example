@@ -28,5 +28,8 @@ export class MyApp {
     // set a fallback url to use by default in case an image is not found
     imageLoaderConfig.setFallbackUrl('assets/fallback.png');
 
+    imageLoaderConfig.maxCacheSize = 2 * 1024 * 1024; // 2 MB
+    imageLoaderConfig.maxCacheAge = 60 * 1000; // 1 minute
+
   }
 }
