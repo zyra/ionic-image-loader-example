@@ -4,13 +4,10 @@
   "homepage": "http://ionicframework.com/",
   "private": true,
   "scripts": {
+    "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
-    "watch": "ionic-app-scripts watch",
-    "serve:before": "watch",
-    "emulate:before": "build",
-    "deploy:before": "build",
-    "build:before": "build",
-    "run:before": "build"
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve"
   },
   "dependencies": {
     "@angular/common": "2.2.1",
@@ -23,15 +20,15 @@
     "@angular/platform-browser-dynamic": "2.2.1",
     "@angular/platform-server": "2.2.1",
     "@ionic/storage": "1.1.7",
-    "ionic-angular": "2.0.0-rc.4",
-    "ionic-image-loader": "^1.2.0",
-    "ionic-native": "2.2.11",
+    "ionic-angular": "2.0.0",
+    "ionic-native": "2.4.1",
     "ionicons": "3.0.0",
     "rxjs": "5.0.0-beta.12",
+    "sw-toolbox": "3.4.0",
     "zone.js": "0.6.26"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "0.0.48-201612291559",
+    "@ionic/app-scripts": "1.0.0",
     "typescript": "2.0.9"
   },
   "description": "ionic-image-loader-example: An Ionic project",

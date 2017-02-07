@@ -7,6 +7,7 @@ import {Slider} from "../slider/slider";
 import {ConcurrencyPage} from "../concurrency/concurrency";
 import {ImageLoader} from "ionic-image-loader";
 
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'

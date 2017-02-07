@@ -25,8 +25,8 @@ export class MyApp {
 
     // enable debug mode to get console logs and stuff
     imageLoaderConfig.enableDebugMode();
-
     // set a fallback url to use by default in case an image is not found
     imageLoaderConfig.setFallbackUrl('assets/fallback.png');
+
   }
 }
