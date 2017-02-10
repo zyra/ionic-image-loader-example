@@ -6,6 +6,7 @@ import {Avatars} from "../avatars/avatars";
 import {Slider} from "../slider/slider";
 import {ConcurrencyPage} from "../concurrency/concurrency";
 import {ImageLoader} from "ionic-image-loader";
+import {VirtualScrollPage} from "../virtual-scroll/virtual-scroll";
 
 
 @Component({
@@ -18,6 +19,7 @@ export class HomePage {
   avatars = Avatars;
   slider = Slider;
   concurrency = ConcurrencyPage;
+  virtualSroll = VirtualScrollPage;
 
   constructor(
     private navCtrl: NavController,
