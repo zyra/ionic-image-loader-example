@@ -7,6 +7,7 @@ import {Avatars} from "../pages/avatars/avatars";
 import {Cards} from "../pages/cards/cards";
 import {Slider} from "../pages/slider/slider";
 import {ConcurrencyPage} from "../pages/concurrency/concurrency";
+import {VirtualScrollPage} from "../pages/virtual-scroll/virtual-scroll";
 
 const pages = [
   MyApp,
@@ -14,7 +15,8 @@ const pages = [
   Avatars,
   Cards,
   Slider,
-  ConcurrencyPage
+  ConcurrencyPage,
+  VirtualScrollPage
 ];
 
 @NgModule({

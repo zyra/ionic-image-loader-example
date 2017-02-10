@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import {ModalController, AlertController} from 'ionic-angular';
+import {ModalController, AlertController, NavController} from 'ionic-angular';
 import {Cards} from "../cards/cards";
 import {Avatars} from "../avatars/avatars";
 import {Slider} from "../slider/slider";
@@ -20,13 +20,13 @@ export class HomePage {
   concurrency = ConcurrencyPage;
 
   constructor(
-    private modalCtrl: ModalController,
+    private navCtrl: NavController,
     private imageLoader: ImageLoader,
     private alertCtrl: AlertController
   ) {}
 
-  openModal(component) {
-    this.modalCtrl.create(component).present();
+  openPage(component) {
+    this.navCtrl.push(component);
   }
 
   clearCache() {
