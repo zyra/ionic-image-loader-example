@@ -19,13 +19,13 @@
     "@angular/platform-browser": "2.4.8",
     "@angular/platform-browser-dynamic": "2.4.8",
     "@angular/platform-server": "2.4.8",
-    "@ionic-native/core": "^3.1.1",
-    "@ionic-native/file": "^3.1.1",
-    "@ionic-native/splash-screen": "^3.1.1",
-    "@ionic-native/status-bar": "^3.1.1",
-    "@ionic-native/transfer": "^3.1.1",
+    "@ionic-native/core": "^3.2.3",
+    "@ionic-native/file": "^3.2.3",
+    "@ionic-native/splash-screen": "^3.2.3",
+    "@ionic-native/status-bar": "^3.2.3",
+    "@ionic-native/transfer": "^3.2.3",
     "@ionic/storage": "2.0.0",
-    "ionic-angular": "2.2.0",
+    "ionic-angular": "2.3.0",
     "ionic-image-loader": "^2.0.1",
     "ionicons": "^3.0.0",
     "rxjs": "5.0.1",
@@ -33,7 +33,7 @@
     "zone.js": "0.7.2"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "^1.1.4",
+    "@ionic/app-scripts": "1.1.4",
     "typescript": "2.0.9"
   },
   "description": "ionic-image-loader-example: An Ionic project",
