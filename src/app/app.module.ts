@@ -23,7 +23,7 @@ import { StatusBar } from '@ionic-native/status-bar';
   ],
   imports: [
     IonicModule.forRoot(MyApp),
-    IonicImageLoader
+    IonicImageLoader.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
