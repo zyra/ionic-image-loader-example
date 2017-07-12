@@ -5,7 +5,7 @@ import {Cards} from "../cards/cards";
 import {Avatars} from "../avatars/avatars";
 import {Slider} from "../slider/slider";
 import {ConcurrencyPage} from "../concurrency/concurrency";
-import {ImageLoader} from "ionic-image-loader";
+import {ImageLoader} from "../../ionic-image-loader/src/";
 import {VirtualScrollPage} from "../virtual-scroll/virtual-scroll";
 
 

@@ -1,0 +1,3 @@
+[submodule "src/ionic-image-loader"]
+	path = src/ionic-image-loader
+	url = git@github.com:zyra/ionic-image-loader

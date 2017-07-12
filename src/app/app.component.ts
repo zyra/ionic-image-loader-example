@@ -3,7 +3,7 @@ import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { HomePage } from '../pages/home/home';
 
-import { ImageLoaderConfig } from 'ionic-image-loader';
+import { ImageLoaderConfig } from '../ionic-image-loader/src/';
 
 @Component({
   template: `<ion-nav [root]="rootPage"></ion-nav>`
