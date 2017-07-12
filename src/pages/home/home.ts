@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import {ModalController, AlertController, NavController} from 'ionic-angular';
+import {AlertController, NavController} from 'ionic-angular';
 import {Cards} from "../cards/cards";
 import {Avatars} from "../avatars/avatars";
 import {Slider} from "../slider/slider";
