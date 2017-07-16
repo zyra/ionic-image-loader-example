@@ -3,7 +3,7 @@
     <name>ionic-image-loader-example</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
-    <content src="http://192.168.43.214:8100" original-src="index.html"/>
+    <content src="index.html"/>
     <access origin="*"/>
     <allow-intent href="http://*/*"/>
     <allow-intent href="https://*/*"/>
