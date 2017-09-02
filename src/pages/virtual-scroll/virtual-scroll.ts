@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
+import { IonicPage } from 'ionic-angular';
 
+@IonicPage({
+  name: 'virtual-scroll-page'
+})
 @Component({
   selector: 'page-virtual-scroll',
   templateUrl: 'virtual-scroll.html'

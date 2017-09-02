@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-import {ViewController} from "ionic-angular";
+import { IonicPage } from 'ionic-angular';
+
+@IonicPage({
+  name: 'avatars-page'
+})
 @Component({
   selector: 'page-avatars',
   templateUrl: 'avatars.html'
 })
-export class Avatars {
-  constructor(public viewCtrl: ViewController) {}
-}
+export class Avatars {}

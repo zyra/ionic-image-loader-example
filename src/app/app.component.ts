@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
-import { HomePage } from '../pages/home/home';
-
 import { ImageLoaderConfig } from '../ionic-image-loader/src/';
 
 @Component({
-  template: `<ion-nav [root]="rootPage"></ion-nav>`
+  template: `<ion-nav root="home-page"></ion-nav>`
 })
 export class MyApp {
-  rootPage = HomePage;
 
   constructor(
     platform: Platform,

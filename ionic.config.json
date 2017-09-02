@@ -1,5 +1,6 @@
 {
   "name": "ionic-image-loader-example",
   "app_id": "",
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "integrations": {}
 }

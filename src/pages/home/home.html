@@ -10,19 +10,19 @@
     Welcome to this demo application. Pick one of the options below to see different use cases of ionic-image-loader:
   </p>
   <ion-list>
-    <button ion-item (click)="openPage(cards)">
+    <button ion-item navPush="cards-page">
       Cards
     </button>
-    <button ion-item (click)="openPage(avatars)">
+    <button ion-item navPush="avatars-page">
       Avatars
     </button>
-    <button ion-item (click)="openPage(slider)">
-      Sliders
+    <button ion-item navPush="slider-page">
+      Slider
     </button>
-    <button ion-item (click)="openPage(concurrency)">
+    <button ion-item navPush="concurrency-page">
       Concurrency test
     </button>
-    <button ion-item (click)="openPage(virtualSroll)">
+    <button ion-item navPush="virtual-scroll-page">
       Virtual Scroll
     </button>
   </ion-list>

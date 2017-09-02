@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
-import {ViewController} from 'ionic-angular';
+import { IonicPage } from 'ionic-angular';
 
+@IonicPage({
+  name: 'slider-page'
+})
 @Component({
   selector: 'page-slider',
   templateUrl: 'slider.html'
 })
 export class Slider  {
-  constructor(public viewCtrl: ViewController) {}
 }

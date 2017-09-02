@@ -1,25 +1,17 @@
 import { Component } from '@angular/core';
 
-import {AlertController, NavController} from 'ionic-angular';
-import {Cards} from "../cards/cards";
-import {Avatars} from "../avatars/avatars";
-import {Slider} from "../slider/slider";
-import {ConcurrencyPage} from "../concurrency/concurrency";
+import {AlertController, NavController, IonicPage} from 'ionic-angular';
 import {ImageLoader} from "../../ionic-image-loader/src/";
-import {VirtualScrollPage} from "../virtual-scroll/virtual-scroll";
 
 
+@IonicPage({
+  name: 'home-page'
+})
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
-
-  cards = Cards;
-  avatars = Avatars;
-  slider = Slider;
-  concurrency = ConcurrencyPage;
-  virtualSroll = VirtualScrollPage;
 
   constructor(
     private navCtrl: NavController,
