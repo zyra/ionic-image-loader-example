@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { IonicPage } from 'ionic-angular';
 
 @IonicPage({
-  name: 'virtual-scroll-page'
+  name: 'virtual-scroll-page',
+  defaultHistory: ['home-page']
 })
 @Component({
   selector: 'page-virtual-scroll',
